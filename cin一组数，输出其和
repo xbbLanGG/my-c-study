@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  int value;
+  int sum=0;
+  while(cin>>value)       //需要键入停止符 ctrl+z
+  {
+    sum+=value;
+  }
+  cout<<sum<<endl;
+  system("pause");
+  return 0;
+}
